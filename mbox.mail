@@ -1,0 +1,78 @@
+From alun@(none) Fri Sep 02 07:28:40 2005
+Return-path: <alun@(none)>
+Envelope-to: root@(none)
+Delivery-date: Fri, 02 Sep 2005 07:28:40 +0100
+Received: from alun by localhost with local (Exim 4.50)
+	id 1EB52W-0000ug-C0
+	for root@(none); Fri, 02 Sep 2005 07:28:40 +0100
+To: root@(none)
+Subject: *** SECURITY information for localhost ***
+From: "Dr. Alun Moon" <alun@(none)>
+Message-Id: <E1EB52W-0000ug-C0@localhost>
+Date: Fri, 02 Sep 2005 07:28:40 +0100
+Status: RO
+
+localhost : Sep  2 07:28:39 : alun : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/alun ; USER=root ; COMMAND=/usr/bin/aptitude
+
+From  alun@home Fri Oct 02 19:30:00 2007
+From: alun
+To: owain
+Subject: bedtime!
+Go to bed
+
+
+From: sarah
+To: alun
+Subject: coffee?
+want some?
+
+From alun@work Fri Oct 28 22:49:32 2007
+From: alun
+To: frank
+Message-ID: <3319.1162141856@localhost>
+Mime-Version: 1.0
+Subject: onoff icon
+Content-Type: multipart/mixed; boundary="-"
+
+This is a MIME encoded message.  Decode it with "munpack"
+or any other MIME reading software.  Mpack/munpack is available
+via anonymous FTP in ftp.andrew.cmu.edu:pub/mpack/
+---
+Content-Type: application/octet-stream; name="io.png"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="io.png"
+Content-MD5: wHe6yAtCd8Bi1pyXuWaEug==
+
+iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABmJLR0QA/wD/AP+gvaeTAAAA
+CXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH1goXFQousxmmywAAAPRJREFUGNMFwU1rgzAY
+AGA1oXtNjCEE1H1bHIheWjy1FO/72bK/MEZPBnbwotvowOH8iOnz2KfTyQaAjTHmYRzH17Is
+f6SUb1VVtUKI2dFac611EQTBkTF2SZJkUUodCSFJHMfgGGMyIcRzmqaPQggyzzNZ1/U+DMPb
+KIq2DkIo2e12/2EYtpZlDVLKhVL6hRDaMMZyDAA3rut+A8BHnuc2QogqpTTn3GOMcUwIaZum
+maZpWuq6/q2q6q/v+6f9fo89z7tgxth5GIag6zrd9/2dZVnu4XCwi6JAGOMzppR+cs6HKIpe
+sizb+r7vCiFGAHg3xqgrwYRdOlsn2U8AAAAASUVORK5CYII=
+
+-----
+%%
+
+From alun.moon@unn.ac.uk Fri Oct  6 14:52:18 2006
+Message-ID: <45265F92.1030408@unn.ac.uk>
+Date: Fri, 06 Oct 2006 14:52:18 +0100
+From: "Dr. Alun Moon" <alun.moon@unn.ac.uk>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.7.13)
+	Gecko/20060809 Debian/1.7.13-0.3
+X-Accept-Language: en-gb
+MIME-Version: 1.0
+To:  fbxsdk@autodesk.com
+Subject: FBX to bvh motion
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+X-Evolution-Source: imap://cgam1@catalina.unn.ac.uk/
+Content-Transfer-Encoding: 8bit
+
+I have been given some motion data in FBX format files,
+unfortunatly the tools I use to work with motion data, are based on
+BVH (being a simple text file).  Do you know of any tools that might
+have been written to extract the motion data to a bvh file?
+
+Many thanks
+
+Dr. Alun Moon
