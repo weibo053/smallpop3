@@ -1,7 +1,40 @@
 # smallpop3
 A cut down pop3 server for use in teaching protocols
-----
 
+## Installation
+You will need to download the source files and build the server.
+There several ways to obtain these
+
+Download a [zip file](https://github.com/dr-alun-moon/smallpop3/archive/master.zip)
+: Once you have the zip file, unpack it into a working directory.
+```
+unzip master.zip
+cd smallpop3-n.n
+```
+
+Clone the repository
+: Clone the repository to get a local copy
+```
+git clone https://github.com/dr-alun-moon/smallpop3.git
+cd smallpop3
+```
+
+Fork and Clone
+: On Github fork the [repository](https://github.com/dr-alun-moon/smallpop3).
+Then you can clone the repository as usual.  The advantage of this method is that you
+can make and keep changes in your repository.
+```
+git clone https://github.com/<your-id>/smallpop3.git
+cd smallpop3
+```
+
+## Build
+Once you have the sources and are in the working directory.  The `Makefile` handles
+the compilation.  At the prompt just type 
+```sh
+make
+```
+---
 # smallpop3
 
 smallpop3 is a tiny pop3 server for illustrating the main features of
@@ -31,7 +64,8 @@ to the University's email server using telnet, but security issues make
 this impractical.  As an alternative we can provide a small POP3 server
 to allow you to interrogate a fictitious mailbox.  The small POP3
 server does not implement all the commands that are described in
-RFC1939, but some of the most used commands are implemented.  As with
+[RFC1939](https://www.ietf.org/rfc/rfc1939.txt), 
+but some of the most used commands are implemented.  As with
 any POP3 server, you need to log on before you can access the
 emails.  The mailbox belongs to a fictitious user with id _guest_ and
 password _visitor_.
