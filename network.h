@@ -11,6 +11,5 @@ typedef int socklen_t;
 extern struct sockaddr_in client;
 extern socklen_t addrlen;
 
-int makeTCPserver(char*);
-char *readline(FILE*);
-
+int makeTCPserver(char *);
+char *readline(FILE *);

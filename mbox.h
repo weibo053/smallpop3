@@ -22,4 +22,4 @@ struct mbox {
 extern struct mbox emails[];
 extern int nemails;
 extern long tsize;
-int scanmbox(FILE*);
+int scanmbox(FILE *);
