@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AUTHORIZATION	pop3.c	/^    AUTHORIZATION,$/;"	e	enum:states	file:
+EXIT	pop3.c	/^    EXIT = 0,$/;"	e	enum:states	file:
+FATALerror	smallpop3.h	15;"	d
+LINELENGTH	network.c	56;"	d	file:
+MAX_MESSAGES	mbox.h	18;"	d
+TRANSACTION	pop3.c	/^    TRANSACTION$/;"	e	enum:states	file:
+accept_clients	smallpop3.c	/^void accept_clients(int s)$/;"	f
+addrlen	network.c	/^socklen_t addrlen = sizeof(client);$/;"	v
+bytes	mbox.h	/^    size_t bytes;$/;"	m	struct:mbox
+cl	pop3.c	/^FILE *cl, *mbox;$/;"	v
+client	network.c	/^struct sockaddr_in client;$/;"	v	typeref:struct:sockaddr_in
+defaultport	smallpop3.c	/^char defaultport[] = "65000";$/;"	v
+diagnostic	smallpop3.h	13;"	d
+emails	mbox.c	/^struct mbox emails[MAX_MESSAGES];$/;"	v	typeref:struct:mbox
+handle_client	pop3.c	/^void handle_client(int s)$/;"	f
+help	smallpop3.c	/^char help[] = "Usage: spop [-h] [-p port] \\n"$/;"	v
+hints	network.c	/^struct addrinfo hints = {$/;"	v	typeref:struct:addrinfo
+linebuffer	network.c	/^char linebuffer[LINELENGTH];$/;"	v
+logfile	smallpop3.c	/^char logfile[] = "spop.log";$/;"	v
+mailbox	pop3.c	/^static char mailbox[24];$/;"	v	file:
+main	smallpop3.c	/^int main(int argc, char *argv[])$/;"	f
+makeTCPserver	network.c	/^int makeTCPserver(char *port)$/;"	f
+mbox	mbox.h	/^struct mbox {$/;"	s
+mbox	pop3.c	/^FILE *cl, *mbox;$/;"	v
+mboxname	pop3.c	/^char *mboxname;$/;"	v
+nemails	mbox.c	/^int nemails = 0;$/;"	v
+nonfatalerror	smallpop3.h	12;"	d
+offset	mbox.h	/^    long offset;$/;"	m	struct:mbox
+param	pop3.c	/^static char *param;$/;"	v	file:
+pop3_fsm	pop3.c	/^int pop3_fsm(char *input)$/;"	f
+pop3list	pop3.c	/^int pop3list(void)$/;"	f
+pop3pass	pop3.c	/^int pop3pass(void)$/;"	f
+pop3quit	pop3.c	/^int pop3quit(void)$/;"	f
+pop3retr	pop3.c	/^int pop3retr(void)$/;"	f
+pop3stat	pop3.c	/^int pop3stat(void)$/;"	f
+pop3top	pop3.c	/^int pop3top(void)$/;"	f
+pop3user	pop3.c	/^int pop3user(void)$/;"	f
+port	smallpop3.c	/^char *port = defaultport;$/;"	v
+readline	network.c	/^char *readline(FILE * stream)$/;"	f
+results	network.c	/^struct addrinfo *results;$/;"	v	typeref:struct:addrinfo
+scanmbox	mbox.c	/^int scanmbox(FILE * mb)$/;"	f
+serverstate	pop3.c	/^enum states serverstate;$/;"	v	typeref:enum:states
+socklen_t	network.h	/^typedef int socklen_t;$/;"	t
+states	pop3.c	/^enum states {$/;"	g	file:
+stdlog	smallpop3.c	/^FILE *stdlog;$/;"	v
+tsize	mbox.c	/^long tsize = 0;$/;"	v
+username	pop3.c	/^static char username[80];$/;"	v	file:
+validate_user	pop3.c	/^char *validate_user(char *name, char *pass)$/;"	f
