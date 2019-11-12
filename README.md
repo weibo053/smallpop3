@@ -1,3 +1,8 @@
+# POP3
+The POP3 protocol is used to read or download incoming messages from a mail server to a user’s PC. In theory it would be possible to connect to the Univer- sity’s email server using telnet, but security issues make this impractical. As an alternative we can provide a small POP3 server to allow you to interrogate a fictitious mailbox. The small POP3 server does not implement all the commands that are described in RFC 1939, but some of the most used commands are implemented.
+
+As with any POP3 server, you need to log on before you can access the emails.
+
 # smallpop3
 A cut down pop3 server for use in teaching protocols.
 
