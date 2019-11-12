@@ -8,24 +8,9 @@ There several ways to obtain these
 Download a [zip file](https://github.com/dr-alun-moon/smallpop3/archive/master.zip)
 : Once you have the zip file, unpack it into a working directory.
 ```
+wget https://github.com/dr-alun-moon/smallpop3/archive/master.zip
 unzip master.zip
-cd smallpop3-n.n
-```
-
-Clone the repository
-: Clone the repository to get a local copy
-```
-git clone https://github.com/dr-alun-moon/smallpop3.git
-cd smallpop3
-```
-
-Fork and Clone
-: On Github fork the [repository](https://github.com/dr-alun-moon/smallpop3).
-Then you can clone the repository as usual.  The advantage of this method is that you
-can make and keep changes in your repository.
-```
-git clone https://github.com/<your-id>/smallpop3.git
-cd smallpop3
+cd smallpop3-master
 ```
 
 ## Build
