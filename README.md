@@ -1,5 +1,6 @@
 # smallpop3
 A cut down pop3 server for use in teaching protocols
+Thanks for Dr Alun Moon for implementing this project. 
 
 ## Installation
 You will need to download the source files and build the server.
